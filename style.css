@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+p{
+    color: dimgray;
+}
+h1{
+    font-size:30px ;
+}
+#name-color{
+    color: orangered;
+    font-size: 50px;
+    font-weight: 700;
+}
+section{
+    height: 800px;
+}
+#header-sec{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+#bio-sec{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+#l-work-sec{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+#foot-sec{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;  
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.h-padd-top{
+    padding-top: 100px;
+}
+.b-padd-top{
+    padding-top: 130px;
+}
+.text-center{
+    text-align: center;
+}
+#l-work-sec img{
+    width: 25%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#marg{
+    margin-left: 10%;
+}
+.foot-padd{
+    padding-top: 30px;
+}
+.foot-padd-bottom{
+    padding-bottom: 70px;
+}
+#contact-button{
+    border-radius: 5px;
+    background-color: tomato;
+    width: 40%;
+    position: relative;
+    left: 470px;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+
+}
+#button-padd{
+    text-align: center;
+    padding: 40px 50px;
+}
